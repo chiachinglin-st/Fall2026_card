@@ -7,6 +7,14 @@ html, body {
     width:100%;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+}
 
 .card {
     width: 450px;
@@ -78,3 +86,5 @@ html, body {
 .fa-linkedin-square:hover {
     color:red;
 }
+
+
